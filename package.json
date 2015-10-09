@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-express-mongodb-api",
+  "description": "Using Express 4.0 Router to build an API, Extended version from scotch.io's code with multiple objects/routes",
+  "version": "1.0.1",
+  "homepage": "https://github.com/shoaibuddin/nodejs-express-mongodb-api",
+  "author": {
+    "name": "Shoaib Ud-Din",
+    "email": "shoaibuddin1@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shoaibuddin/nodejs-express-mongodb-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shoaibuddin/nodejs-express-mongodb-api/issues"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0",
+    "morgan": "~1.0.0",
+    "mongoose": "~3.6.13",
+    "body-parser": "~1.0.1"
+  },
+  "keywords": [
+    "slushgenerator"
+  ]
+}
