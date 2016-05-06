@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 var port     = process.env.PORT || 8080; // set our port
 
 var mongoose   = require('mongoose');
-mongoose.connect('mongodb://USERNAME:PASSWORD@ds039950.mongolab.com:39950/shoaibuddin'); // connect to our database
+mongoose.connect('mongodb://ginobernardi:Cars123@ds039950.mongolab.com:39950/shoaibuddin'); // connect to our database
 var Employee     = require('./app/models/employee');
 var Students     = require('./app/models/students');
 
